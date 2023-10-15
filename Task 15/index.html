@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 15</title>
+    <style>
+      body {
+        background-image: url(../media/banner_image.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+      }
+      h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-align: center;
+      }
+      form {
+        margin-left: 33%;
+        margin-top: 50px;
+        box-shadow: 0cm;
+        padding: 1%;
+        width: 500px;
+        min-height: 500px;
+        background-color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+      }
+      button {
+        background-color: rgb(77, 75, 75);
+        width: 100%;
+        color: white;
+        padding: 15px;
+      }
+      label {
+        margin: 5px;
+        margin-bottom: 3px;
+      }
+      .box {
+        background-color: rgb(216, 212, 212);
+        border-radius: 15px;
+        width: 98%;
+        border-style: hidden;
+        padding: 8px 5px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+      }
+      hr {
+        background-color: rgb(221, 221, 221);
+        width: 90%;
+        height: 2px;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Sign Up</h1>
+      <hr />
+      <label>First Name</label>
+      <input type="text" placeholder="Enter First Name" class="box" />
+      <label>Last Name</label>
+      <input type="text" placeholder="Enter Last Name" class="box" />
+      <label>Date of Birth</label>
+      <input type="date" class="box" />
+      <label>Email</label>
+      <input class="box" type="email" placeholder="Enter Email" />
+      <label>Password</label>
+      <input type="password" placeholder="Enter Password" class="box" />
+      <label>Confirm Password</label>
+      <input type="password" placeholder="Re-enter Password" class="box" />
+      <hr />
+      <button>Register</button>
+    </form>
+  </body>
+</html>
